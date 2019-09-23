@@ -1,0 +1,3 @@
+some url collection to learn html:
+  1. https://www.w3schools.com
+  2. https://developer.mozilla.org/en-US/docs/Web/HTML/Element
