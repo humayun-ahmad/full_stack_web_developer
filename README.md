@@ -4,6 +4,8 @@ Learn to build websites with HTML , CSS , Bootstrap , Javascript , jQuery , Pyth
 
 Created by Jose Portilla
 
-Total 27 sections and 198 lectures 
+Total 27 sections and 198 lectures
 Total time: 31 hours 54 minutes 05 seconds
 
+# Requirements
+A computer with an internet connection and download privileges
