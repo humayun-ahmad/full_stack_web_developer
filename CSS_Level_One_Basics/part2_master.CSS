@@ -1,0 +1,20 @@
+body{
+  background-image: url(https://img2.10bestmedia.com/Images/Photos/352450/GettyImages-913753556_54_990x660.jpg);
+  background-repeat: repeat;
+}
+
+div{
+  background: red;
+  border-color: orange;
+  border-width: 4px;
+  border-style: double;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}
