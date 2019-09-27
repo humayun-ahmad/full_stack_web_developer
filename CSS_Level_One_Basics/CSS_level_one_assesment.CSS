@@ -1,0 +1,46 @@
+/* task one */
+body{
+  background-color: lightblue;
+}
+/* task two */
+h1{
+  border: 1px solid black;
+}
+/* task tree */
+h2{
+  color: purple;
+}
+
+/* task # 4 */
+
+input{
+  border: 2px solid darkred;
+}
+
+/* task # 5 */
+
+div p{
+  background-color: lightyellow;
+}
+#samediv{
+  border: 5px solid gray;
+  width: 800px;
+  height: 400px;
+}
+
+a{
+  color: red;
+}
+
+#itemone{
+  text-decoration: overline;
+  color: purple;
+}
+
+.exit{
+  background-color: blue;
+  border: 4px dashed yellow;
+}
+a:visited{
+  color: blue;
+}
