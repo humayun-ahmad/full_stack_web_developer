@@ -19,5 +19,3 @@ z = "item one: {} item two: {}".format("cat","dog")
 z = "item one: {x} item two: {y}".format(x = "cat", y ="dog")
 print(z)
 
-
-
