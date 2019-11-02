@@ -25,8 +25,3 @@ print(mydog.species)
 
 
 
-
-
-
-
-
