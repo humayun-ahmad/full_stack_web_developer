@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Picture Page</title>
+	<link rel="stylesheet" type="text/css" href= "{% static "css/mystyle.css"%}" />
+</head>
+<body>
+	<h1>This is Harry Potter Picture!</h1>
+
+	<!comment: here the text will come from the views.py file>
+	
+	<img src="{% static "images/harry_potter.jpg" %}" alt="Uh oh, didn't show!">
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Django Level Two</title>
+	<link rel="stylesheet" type="text/css" href=" {% static "css/mystyle.css" %} "/>
+</head>
+<body>
+	<h1>Hi welcome to Django Level Two!</h1>
+	<h2>Here are youre access records:</h2>
+
+	<div class="djangotwo">
+		{% if access_records %}
+		<table>
+			<thead>
+				<th>Site Name</th>
+				<th>Date Accessed</th>
+			</thead>
+
+			{% for acc in access_records %}
+			<tr>
+				<td>{{ acc.name}}</td>
+				<td>{{ acc.date}}</td>
+			</tr>
+			{% endfor %}
+		</table>
+		{% else %}
+		<p>NO ACCESS RECORDS FOUND!</p>
+		{% endif %}
+	</div>
+
+</body>
+</html>
+
+
+
