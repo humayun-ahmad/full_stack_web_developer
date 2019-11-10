@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>users page</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+
+
+		<div class="container">
+			<h1>Please sign up here!</h1>
+			<form method="POST">
+				{{ form.as_p }}
+				{% csrf_token %}
+				<input type="submit" class="btn btn-primary" value='Submit'>
+			</form>
+		</div>
+
+
+		<!-- <h1>Here are your users for Apptwo:</h1>
+		{% if users %}
+
+		<ol>
+			{% for person in users %}
+			<li>User Info</li>
+			<ul>
+				<li>First Name: {{ person.first_name }} </li>
+				<li>Last Name: {{ person.last_name }} </li>
+				<li>Email: {{ person.email }} </li>
+			</ul>
+			{% endfor %}
+		</ol>
+		{% endif %} -->
+
+	</body>
+</html>
